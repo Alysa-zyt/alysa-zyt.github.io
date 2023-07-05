@@ -6,7 +6,8 @@ tags:
 description: |
   待待填充的描述填待
   填充的描述待填充的描述待填充的描述充的描述
-cover: /images/avatar.jpg
+cover: https://s2.loli.net/2023/07/05/wUGMQy68YopDRFE.png
 ---
 
 {% pdf 01HOS竞品分析报告.pdf %}
+
