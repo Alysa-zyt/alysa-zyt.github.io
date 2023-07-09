@@ -37,7 +37,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Install Butterfly theme
-        run : [[ ! -d themes/butterfly ]] && git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+        run : "[[ ! -d themes/butterfly ]] && git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly"
       - name: Build
         run: npm run build
       - name: Deploy
